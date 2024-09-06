@@ -87,6 +87,8 @@ if page == "Home":
             - **Exercise Induced Angina**: {exercise_angina}
             - **Oldpeak**: {oldpeak}
             - **ST Slope**: {st_slope}
+
+            
             
             **Note:** Please consult a physician as this is a trained model which may be wrong.
             """)
@@ -96,7 +98,7 @@ if page == "Home":
             st.balloons()
         else:
             st.error("Person Having Heart Disease - Please consult a physician immediately.")
-
+#github
 # Documentation Page
 elif page == "Documentation":
     st.title('Documentation')
